@@ -2,7 +2,7 @@
 
 ### Minesweeper game with electron js
 
-left click to reveal tiles \n
+left click to reveal tiles <br/>
 right click to mark mines
 
 ### Download setup [here](https://github.com/Adam03lvl/Minesweeper/releases/download/Game/minesweeper.Setup-win.exe)
