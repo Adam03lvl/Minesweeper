@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js" type="module" defer></script>
+        <title>Mine Sweeper</title>
+    </head>
+    <body>
+        <header>
+            <span>Mine Sweeper</span>
+                <b class="left">mines left: <b id="mines-left"></b></b>
+        </header>
+        <form class="radio" >
+            <label for="size">Board Size: </label>
+            <select name="size" id="size" class="input" size="0">
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+            </select>
+            <label for="difficulty">difficulty: </label>
+            <select name="difficulty" id="diff">
+                <option value="1">easy</option>
+                <option value="2">medium</option>
+                <option value="3">hard</option>
+                <option value="5">extreme</option>
+                <option value="7">impossible</option>
+            </select>
+            <button type="button" id="update"  class='reload'>Start</button>
+            <button class="reload" id="closeBtn">Exit</button>
+        </form> 
+        <div class="right" id="timer"></div>
+        <div id="board"></div>
+    </body>
+</html>
